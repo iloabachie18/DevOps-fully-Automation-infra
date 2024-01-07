@@ -80,14 +80,6 @@ pipeline {
                
             }
         }
-
-        stage('Manual approval') {
-            steps {
-                
-                input 'Approval required for deployment'
-               
-            }
-        }
         
         stage('Terraform destroy') {
             steps {
