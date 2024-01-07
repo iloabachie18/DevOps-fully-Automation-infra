@@ -10,7 +10,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning project codebase...'
-                git branch: 'main', url: 'https://github.com/Ben-Benard23/Terraform-CICD-Deployment.git'
+                git branch: 'main', url: 'https://github.com/iloabachie18/DevOps-fully-Automation-infra.git'
                 sh 'ls'
             }
         }
